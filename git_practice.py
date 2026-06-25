@@ -23,9 +23,7 @@ from typing import Iterable, Callable, Any
 def is_prime(n: int) -> bool:
     """判断一个整数是否为素数。"""
     if n < 2:
-        return False
-    if n in (2, 3):
-        return True
+
 # 测试 rebase
     return True
 
