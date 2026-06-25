@@ -27,7 +27,6 @@ def is_prime(n: int) -> bool:
     if n in (2, 3):
         return True
     print('123')
-# 测试 rebase
     return True
 
 
