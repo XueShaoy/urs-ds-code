@@ -40,6 +40,8 @@ def primes_up_to(limit: int) -> list[int]:
         return []
     sieve = [True] * (limit + 1)
     sieve[0] = sieve[1] = False
+#    wetqewrefasdfas
+    return [i for i, ok in enumerate(sieve) if ok]
 
 
 def gcd(a: int, b: int) -> int:
