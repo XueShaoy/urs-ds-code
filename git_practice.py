@@ -40,10 +40,7 @@ def primes_up_to(limit: int) -> list[int]:
         return []
     sieve = [True] * (limit + 1)
     sieve[0] = sieve[1] = False
-    for i in range(2, int(math.isqrt(limit)) + 1):
-        if sieve[i]:
-            for j in range(i * i, limit + 1, i):
-                sieve[j] = False
+#    wetqewrefasdfas
     return [i for i, ok in enumerate(sieve) if ok]
 
 
